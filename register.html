@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>STUDENT REGISTRATION</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label>FULL NAME</label>
+            <input type="text" name="fullname" placeholder="input your full name" required>
+            <br><br>
+            <label>ADMISSION NUMBER</label>
+            <input type="text" number="" placeholder="input your admission number" required>
+            <br><br>
+            <label>EMAIL ADDRESS</label>
+            <input type="text" email="emailaddress" placeholder="input your email" required>
+            <br><br>
+            <label>PHONE NUMBER</label>
+            <input type="text" number="phone number" placeholder="input your phone number" maxlength="10">
+            <br><br>
+             <label>gender:</label><br><br>
+            <input type="radio" name="gender" value="male">
+            male
+            <br><br>
+            <input type="radio" name="gender" value="female">
+            female
+            <br><br>
+            <input type="radio" name="gender" value="non binary">
+            non binary
+            <br><br>
+             <label>DATE OF BIRTH</label>
+            <input type="date" name="dob" placeholder="enter date of birth" required>
+            <br><br>
+             <label>course</label>
+            <select name="course">
+                <option value="">Choose your Course</option>
+                <option value="Data Science">data science</option>
+                <option value="Computer Science">computer science</option>
+                <option value="Animal Health">animal health</option>
+                <option value="cyber Security">cyber security</option>
+                <option value="Mass media ">mass media</option>
+            </select>
+            <br><br>
+            <input type="submit" value="register">
+        </form>   
+    </body>
+</html>
